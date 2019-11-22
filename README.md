@@ -1,5 +1,5 @@
 # PSC2
-This is powershell RAT and C2 server. All features are included in a single php file.
+Simple powershell RAT and C2 server. All features are included in a single php file.
 
 # System Requirements
 PHP 7.0+  
